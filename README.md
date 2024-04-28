@@ -1,9 +1,9 @@
 # Parcial_IPD
 
 # Grupo de Trabajo
-Néstor David Heredia Gutierrez - 2058558
-Brayan Camilo Urrea Jurado - 2410023
-Kevin Alejandro Velez Agudelo - 2123281
+- Néstor David Heredia Gutierrez - 2058558
+- Brayan Camilo Urrea Jurado - 2410023
+- Kevin Alejandro Velez Agudelo - 2123281
 
 ## Automatizador de Descarga y Extracción de Audio de YouTube
 
