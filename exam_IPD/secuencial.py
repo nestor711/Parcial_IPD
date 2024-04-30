@@ -6,7 +6,7 @@ import datetime
 import subprocess
 
 # Cargar el archivo JSON
-with open('Channels.json', 'r') as f:
+with open('channels2.json', 'r') as f:
     data = json.load(f)
 
 # Crear la carpeta para los audios extraídos

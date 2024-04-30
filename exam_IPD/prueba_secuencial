@@ -1,0 +1,45 @@
+import os
+import json
+import datetime
+import yt_dlp
+
+# Función para descargar los últimos 5 videos de un canal dado su enlace
+def download_latest_videos(channel_url, output_folder):
+    ydl_opts = {
+        'quiet': True,
+        'extract_flat': True,
+        'force_generic_extractor': True,
+        'skip_download': False,
+        'format': 'ba',
+        'postprocessors': [{
+            'key': 'FFmpegExtractAudio',
+            'preferredcodec': 'mp3',
+        }],
+        'playlist_items': '1-5',
+        'outtmpl': f'{output_folder}/%(title)s.%(ext)s',
+    }
+    with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+        ydl.download([channel_url])
+
+# Crear la carpeta para los audios extraídos
+output_folder = 'extracted_audios'
+os.makedirs(output_folder, exist_ok=True)
+
+# Cargar el archivo JSON con los enlaces de los canales
+with open('channels.json', 'r') as f:
+    channels_data = json.load(f)
+
+# Iterar sobre los canales y descargar los últimos 5 videos de cada uno
+for channel_info in channels_data:
+    channel_name = channel_info['nombre_canal']
+    channel_url = channel_info['url']
+    print(f"Descargando los últimos 5 videos del canal '{channel_name}'...")
+    download_latest_videos(channel_url, os.path.join(output_folder, channel_name))
+
+    # Registro de la fecha de descarga
+    fecha_descarga = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    # Guardar registro en un archivo de texto
+    with open('registro.txt', 'a') as registro_file:
+        registro_file.write(f"Canal: {channel_name}\nFecha de descarga: {fecha_descarga}\n\n")
+
+print("Proceso completado.")
