@@ -1,26 +1,29 @@
-[
-    {
-        "nombre_canal": "HolaMundo",
-        "url": "https://www.youtube.com/@HolaMundoDev"
-    },
+{
+    "canales": [
+        {
+            "nombre": "HolaMundo",
+            "url": "https://www.youtube.com/@HolaMundoDev/videos"
+        },
 
-    {
-        "nombre_canal": "Espn Deportes",
-        "url": "https://www.youtube.com/@espndeportes"
-    },
+        {
+            "nombre": "Matematicas profe Alex",
+            "url": "https://www.youtube.com/@MatematicasprofeAlex/videos"
+        },
     
-    {
-        "nombre_canal": "MateFacil",
-        "url": "https://www.youtube.com/@MateFacilYT"
-    },
+        {
+            "nombre": "MateFacil",
+            "url": "https://www.youtube.com/@MateFacilYT/videos"
+        },
 
-    {
-        "nombre_canal": "NASA",
-        "url": "https://www.youtube.com/@NASA"
-    },
+        {
+            "nombre": "NASA",
+            "url": "https://www.youtube.com/@NASA/videos"
+        },
 
-    {
-        "nombre_canal": "midulive",
-        "url": "https://www.youtube.com/@midulive"
-    }
-]
+        {
+            "nombre": "Low Level Learning",
+            "url": "https://www.youtube.com/@LowLevelLearning/videos"
+        }
+    ]
+
+}
