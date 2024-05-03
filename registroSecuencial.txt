@@ -1,0 +1,69 @@
+
+Fecha y hora de la ejecuci�n: 2024-05-03 17:01:23
+
+Canal -> HolaMundo:
+	- Video: Lleg� el fin para los programadores? Es Devin el futuro? - Fecha de publicaci�n: 2024-03-26 - Fecha y hora de descarga: 2024-05-03 17:02:09
+	- Video: Por qu� no est�n contratando a los nuevos desarrolladores? - Fecha de publicaci�n: 2024-03-15 - Fecha y hora de descarga: 2024-05-03 17:02:09
+	- Video: La ruta del desarrollador Fullstack - Comenzando desde CERO - Fecha de publicaci�n: 2024-03-15 - Fecha y hora de descarga: 2024-05-03 17:02:09
+	- Video: Los nuevos desarrolladores no califican como devs - Fecha de publicaci�n: 2024-03-15 - Fecha y hora de descarga: 2024-05-03 17:02:09
+	- Video: Usando chat gpt para construir una API rest - Fecha de publicaci�n: 2024-03-15 - Fecha y hora de descarga: 2024-05-03 17:02:09
+Canal -> Matematicas profe Alex:
+	- Video: Volumen de un prisma Triangular "equilatero" - Fecha de publicaci�n: 2024-05-02 - Fecha y hora de descarga: 2024-05-03 17:04:08
+	- Video: Volumen de un prisma rectangular - Ortoedro - Fecha de publicaci�n: 2024-05-01 - Fecha y hora de descarga: 2024-05-03 17:04:08
+	- Video: Volumen del prisma cuadrangular - Fecha de publicaci�n: 2024-04-29 - Fecha y hora de descarga: 2024-05-03 17:04:08
+	- Video: Volumen de un cubo - Fecha de publicaci�n: 2024-04-25 - Fecha y hora de descarga: 2024-05-03 17:04:08
+	- Video: Qu� es volumen | Matem�ticas - Fecha de publicaci�n: 2024-04-24 - Fecha y hora de descarga: 2024-05-03 17:04:08
+Canal -> MateFacil:
+	- Video: Funci�n Compleja No Diferenciable pero que S� cumple Ecuaciones de Cauchy Riemann (Ejemplo 3) - Fecha de publicaci�n: 2024-04-27 - Fecha y hora de descarga: 2024-05-03 17:06:11
+	- Video: Funci�n Compleja No Diferenciable pero que S� cumple Ecuaciones de Cauchy Riemann (Ejemplo 2) - Fecha de publicaci�n: 2024-04-26 - Fecha y hora de descarga: 2024-05-03 17:06:11
+	- Video: Encontrar los Valores de a y b para sea Continua - Funci�n a Trozos - Fecha de publicaci�n: 2024-04-25 - Fecha y hora de descarga: 2024-05-03 17:06:11
+	- Video: Ecuacion diferencial, identificar de qu� tipo es y resolverla - Fecha de publicaci�n: 2024-04-23 - Fecha y hora de descarga: 2024-05-03 17:06:11
+	- Video: 12. Dominio de funci�n con Ra�z cuadrada y divisi�n (Ra�z en denominador) - Fecha de publicaci�n: 2024-04-23 - Fecha y hora de descarga: 2024-05-03 17:06:11
+Canal -> NASA:
+	- Video: Prelaunch Activities for Our Next Commercial Crew Flight Test on This Week @NASA � April 26, 2024 - Fecha de publicaci�n: 2024-04-27 - Fecha y hora de descarga: 2024-05-03 17:08:27
+	- Video: Success and Preparation - Fecha de publicaci�n: 2024-04-23 - Fecha y hora de descarga: 2024-05-03 17:08:27
+	- Video: NASA Welcomes New Partners to the Artemis Accords � This Week @NASA � April 19 - Fecha de publicaci�n: 2024-04-20 - Fecha y hora de descarga: 2024-05-03 17:08:27
+	- Video: Following the Shadow of the Total Solar Eclipse on This Week @NASA � April 12, 2024 - Fecha de publicaci�n: 2024-04-13 - Fecha y hora de descarga: 2024-05-03 17:08:27
+	- Video: Advancing Moon Mobility for Artemis Astronauts on This Week @NASA � April 5, 2024 - Fecha de publicaci�n: 2024-04-09 - Fecha y hora de descarga: 2024-05-03 17:08:27
+Canal -> Low Level Learning:
+	- Video: i changed my mind about this language - Fecha de publicaci�n: 2024-04-30 - Fecha y hora de descarga: 2024-05-03 17:10:04
+	- Video: nation state backdoor found in Cisco firewalls (again..?) - Fecha de publicaci�n: 2024-04-25 - Fecha y hora de descarga: 2024-05-03 17:10:04
+	- Video: this is a warning to anyone using php - Fecha de publicaci�n: 2024-04-21 - Fecha y hora de descarga: 2024-05-03 17:10:04
+	- Video: zero-day vulnerability in Palo Alto firewalls exploited in the wild - Fecha de publicaci�n: 2024-04-12 - Fecha y hora de descarga: 2024-05-03 17:10:04
+	- Video: major security vulnerability found in rust (over hyped?) - Fecha de publicaci�n: 2024-04-10 - Fecha y hora de descarga: 2024-05-03 17:10:04
+
+Fecha y hora de la ejecucion: 2024-05-03 17:14:11
+
+
+Fecha y hora de la ejecucion: 2024-05-03 17:16:51
+
+Canal -> HolaMundo:
+	- Video: Lleg� el fin para los programadores? Es Devin el futuro? - Fecha de publicacion: 2024-03-26 - Fecha y hora de descarga: 2024-05-03 17:17:21
+	- Video: Por qu� no est�n contratando a los nuevos desarrolladores? - Fecha de publicacion: 2024-03-15 - Fecha y hora de descarga: 2024-05-03 17:17:21
+	- Video: La ruta del desarrollador Fullstack - Comenzando desde CERO - Fecha de publicacion: 2024-03-15 - Fecha y hora de descarga: 2024-05-03 17:17:21
+	- Video: Los nuevos desarrolladores no califican como devs - Fecha de publicacion: 2024-03-15 - Fecha y hora de descarga: 2024-05-03 17:17:21
+	- Video: Usando chat gpt para construir una API rest - Fecha de publicacion: 2024-03-15 - Fecha y hora de descarga: 2024-05-03 17:17:21
+Canal -> Matematicas profe Alex:
+	- Video: Volumen de un prisma Triangular "equilatero" - Fecha de publicacion: 2024-05-02 - Fecha y hora de descarga: 2024-05-03 17:19:19
+	- Video: Volumen de un prisma rectangular - Ortoedro - Fecha de publicacion: 2024-05-01 - Fecha y hora de descarga: 2024-05-03 17:19:19
+	- Video: Volumen del prisma cuadrangular - Fecha de publicacion: 2024-04-29 - Fecha y hora de descarga: 2024-05-03 17:19:19
+	- Video: Volumen de un cubo - Fecha de publicacion: 2024-04-25 - Fecha y hora de descarga: 2024-05-03 17:19:19
+	- Video: Qu� es volumen | Matem�ticas - Fecha de publicacion: 2024-04-24 - Fecha y hora de descarga: 2024-05-03 17:19:19
+Canal -> MateFacil:
+	- Video: Funci�n Compleja No Diferenciable pero que S� cumple Ecuaciones de Cauchy Riemann (Ejemplo 3) - Fecha de publicacion: 2024-04-27 - Fecha y hora de descarga: 2024-05-03 17:21:29
+	- Video: Funci�n Compleja No Diferenciable pero que S� cumple Ecuaciones de Cauchy Riemann (Ejemplo 2) - Fecha de publicacion: 2024-04-26 - Fecha y hora de descarga: 2024-05-03 17:21:29
+	- Video: Encontrar los Valores de a y b para sea Continua - Funci�n a Trozos - Fecha de publicacion: 2024-04-25 - Fecha y hora de descarga: 2024-05-03 17:21:29
+	- Video: Ecuacion diferencial, identificar de qu� tipo es y resolverla - Fecha de publicacion: 2024-04-23 - Fecha y hora de descarga: 2024-05-03 17:21:29
+	- Video: 12. Dominio de funci�n con Ra�z cuadrada y divisi�n (Ra�z en denominador) - Fecha de publicacion: 2024-04-23 - Fecha y hora de descarga: 2024-05-03 17:21:29
+Canal -> NASA:
+	- Video: Prelaunch Activities for Our Next Commercial Crew Flight Test on This Week @NASA � April 26, 2024 - Fecha de publicacion: 2024-04-27 - Fecha y hora de descarga: 2024-05-03 17:23:51
+	- Video: Success and Preparation - Fecha de publicacion: 2024-04-23 - Fecha y hora de descarga: 2024-05-03 17:23:51
+	- Video: NASA Welcomes New Partners to the Artemis Accords � This Week @NASA � April 19 - Fecha de publicacion: 2024-04-20 - Fecha y hora de descarga: 2024-05-03 17:23:51
+	- Video: Following the Shadow of the Total Solar Eclipse on This Week @NASA � April 12, 2024 - Fecha de publicacion: 2024-04-13 - Fecha y hora de descarga: 2024-05-03 17:23:51
+	- Video: Advancing Moon Mobility for Artemis Astronauts on This Week @NASA � April 5, 2024 - Fecha de publicacion: 2024-04-09 - Fecha y hora de descarga: 2024-05-03 17:23:51
+Canal -> Low Level Learning:
+	- Video: i changed my mind about this language - Fecha de publicacion: 2024-04-30 - Fecha y hora de descarga: 2024-05-03 17:25:27
+	- Video: nation state backdoor found in Cisco firewalls (again..?) - Fecha de publicacion: 2024-04-25 - Fecha y hora de descarga: 2024-05-03 17:25:27
+	- Video: this is a warning to anyone using php - Fecha de publicacion: 2024-04-21 - Fecha y hora de descarga: 2024-05-03 17:25:27
+	- Video: zero-day vulnerability in Palo Alto firewalls exploited in the wild - Fecha de publicacion: 2024-04-12 - Fecha y hora de descarga: 2024-05-03 17:25:27
+	- Video: major security vulnerability found in rust (over hyped?) - Fecha de publicacion: 2024-04-10 - Fecha y hora de descarga: 2024-05-03 17:25:27
