@@ -67,3 +67,6 @@ Canal -> Low Level Learning:
 	- Video: this is a warning to anyone using php - Fecha de publicacion: 2024-04-21 - Fecha y hora de descarga: 2024-05-03 17:25:27
 	- Video: zero-day vulnerability in Palo Alto firewalls exploited in the wild - Fecha de publicacion: 2024-04-12 - Fecha y hora de descarga: 2024-05-03 17:25:27
 	- Video: major security vulnerability found in rust (over hyped?) - Fecha de publicacion: 2024-04-10 - Fecha y hora de descarga: 2024-05-03 17:25:27
+
+Fecha y hora de la ejecucion: 2024-05-03 17:37:22
+
