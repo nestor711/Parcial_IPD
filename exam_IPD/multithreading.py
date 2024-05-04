@@ -1,69 +1,94 @@
 #EJECUCIÓN DEL APLICATIVO CON MÚLTIPLES HILOS (MULTITHREADING)
 
-# Los números de hilos se especifican utilizando el parámetro max_workers al crear los objetos ThreadPoolExecutor.
-# llevandose a cabo con 4,8 y 16 unidades de procesamiento basado en el documento del examen. 
 import os
-import json
-import datetime
 import subprocess
-from concurrent.futures import ThreadPoolExecutor
+import json
+import yt_dlp
+from datetime import datetime
+import timeit
+import threading
 
-# Cargar el archivo JSON
-with open('Channels.json', 'r') as f:
-    data = json.load(f)
+# Función para descargar y convertir videos en un hilo
+def procesar_canal(canal, carpeta_descarga, registro_path):
+    # Extraer información del canal
+    nombre_canal = canal['nombre']
+    subcarpeta_canal = os.path.join(carpeta_descarga, nombre_canal)
+    os.makedirs(subcarpeta_canal, exist_ok=True)
 
-# Crear la carpeta para los audios extraídos
-output_folder = 'extracted_audios'
-os.makedirs(output_folder, exist_ok=True)
+    # Opciones de descarga para yt-dlp
+    ydl_opts = {
+        'format': 'worstvideo[ext=mp4]+bestaudio/webm',
+        'playlist_items': '1-5',  
+        'outtmpl': os.path.join(subcarpeta_canal, '%(title)s.%(ext)s'), 
+    }
 
-# Función para descargar el video y extraer su audio correspondiente
-def download_and_extract_audio(video_url, channel_name):
-    # Obtener el ID del video
-    video_id = video_url.split('/')[-1].split('?')[0]
-    
-    # Definir la ruta de salida para el archivo de video descargado y el audio en formato mp3
-    video_file = os.path.join(output_folder, f'{video_id}.mp4')
-    audio_folder = os.path.join(output_folder, f'audio_channel_{channel_name}')
-    os.makedirs(audio_folder, exist_ok=True)
-    audio_file = os.path.join(audio_folder, f'{video_id}.mp3')
-    
-    try:
-        # Descargar el video usando la herramienta yt-dlp
-        subprocess.run(['yt-dlp', '--format', 'bestaudio', '-o', video_file, video_url], check=True)
-        
-        # Verificar si el archivo de video se descargó correctamente
-        if os.path.isfile(video_file):
-            # Extraer el audio del video usando la herramienta ffmpeg y guardarlo en formato mp3
-            subprocess.run(['ffmpeg', '-i', video_file, '-vn', '-acodec', 'libmp3lame', '-q:a', '2', audio_file])
-            
-            # Eliminar el video descargado
-            os.remove(video_file)
-            print(f"Audio de '{video_url}' extraído y video eliminado.")
-        else:
-            print(f"Error al descargar el video de '{video_url}'.")
-    except subprocess.CalledProcessError as e:
-        print(f"Error al descargar el video de '{video_url}': {e}")
+    # Descargar los videos del canal
+    with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+        info = ydl.extract_info(canal['url'], download=True)
+        videos = info.get('entries', [])
+        if videos:
+            for video in videos:
+                title = video['title']
+                upload_date = video.get('upload_date', 'Unknown')
+                upload_date_str = datetime.strptime(upload_date, '%Y%m%d').strftime('%Y-%m-%d')
+                current_date_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+                with open(registro_path, 'a') as registro_file:
+                    registro_file.write(f"\t- Video: {title} - Fecha de publicacion: {upload_date_str} - Fecha y hora de descarga: {current_date_time}\n")
 
-# Función para procesar los videos de un canal
-def process_channel_videos(channel):
-    channel_name = channel['nombre_canal']
-    videos = channel['videos']
-    
-    print(f"Descargando y extrayendo audios del canal '{channel_name}'...")
-    with ThreadPoolExecutor(max_workers=4) as executor:
-        # Descargar y extraer audios en múltiples hilos
-        executor.map(lambda video_url: download_and_extract_audio(video_url, channel_name), videos)
+    # Convertir los videos descargados a archivos de audio
+    for archivo in os.listdir(subcarpeta_canal):
+        if archivo.endswith('.webm'):
+            nombre_sin_ext = os.path.splitext(archivo)[0]
+            archivo_webm = os.path.join(subcarpeta_canal, archivo)
+            archivo_mp3 = os.path.join(subcarpeta_canal, f'{nombre_sin_ext}.mp3')
+            subprocess.run(['ffmpeg', '-i', archivo_webm, '-vn', '-acodec', 'libmp3lame', '-ab', '128k', archivo_mp3])
+            os.remove(archivo_webm)
 
-    # Registro de la fecha de descarga
-    fecha_descarga = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+# Función principal
+def main():
+    # Carpeta principal para la descarga de videos
+    carpeta_descarga = 'download_videos'
+    os.makedirs(carpeta_descarga, exist_ok=True)
+    registro_path = 'registroSecuencial.txt'
+    current_date_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 
-    # Guardar registro de los videos descargados en un archivo de texto
-    with open('registro.txt', 'a') as registro_file:
-        for video_url in videos:
-            registro_file.write(f"Video: {video_url}\nFecha de descarga: {fecha_descarga}\n\n")
+    # Escribir la fecha y hora de inicio en el archivo de registro
+    with open(registro_path, 'a') as registro_file:
+        registro_file.write(f"\nFecha y hora de la ejecucion: {current_date_time}\n\n")
 
-# Iterar sobre los canales y procesar sus videos en hilos
-with ThreadPoolExecutor(max_workers=4) as executor:
-    executor.map(process_channel_videos, data['canales'])
+    # Cargar los datos de los canales desde el archivo JSON
+    with open('channels.json') as f:
+        canales_data = json.load(f)
 
-print("Proceso completado.")
+    # Iniciar el cronómetro
+    start_time = timeit.default_timer()
+
+    # Crear una lista para almacenar los hilos
+    threads = []
+
+    # Procesar cada canal en un hilo separado
+    for canal in canales_data['canales']:
+        thread = threading.Thread(target=procesar_canal, args=(canal, carpeta_descarga, registro_path))
+        threads.append(thread)
+        thread.start()
+
+    # Esperar a que todos los hilos terminen
+    for thread in threads:
+        thread.join()
+
+    # Cambiar el nombre de la carpeta de videos a audios
+    carpeta_audios = carpeta_descarga.replace('videos', 'audios')
+    os.rename(carpeta_descarga, carpeta_audios)
+
+    # Calcular el tiempo de ejecución
+    elapsed_time = timeit.default_timer() - start_time
+    elapsed_minutes = int(elapsed_time // 60)
+    elapsed_seconds = int(elapsed_time % 60)
+
+    # Indicar que la ejecución ha terminado y mostrar el tiempo de ejecución
+    print("\n\n\nLa ejecucion ha terminado.")
+    print(f"Tiempo de ejecucion: {elapsed_minutes} minutos y {elapsed_seconds} segundos")
+
+# Ejecutar la función principal si este script es el programa principal
+if __name__ == "__main__":
+    main()
