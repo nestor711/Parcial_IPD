@@ -8,19 +8,16 @@ from multiprocessing import Process
 
 # Función para descargar y convertir videos en un proceso
 def procesar_canal(canal, carpeta_descarga, registro_path):
-    # Extraer información del canal
     nombre_canal = canal['nombre']
     subcarpeta_canal = os.path.join(carpeta_descarga, nombre_canal)
     os.makedirs(subcarpeta_canal, exist_ok=True)
 
-    # Opciones de descarga para yt-dlp
     ydl_opts = {
         'format': 'worstvideo[ext=mp4]+bestaudio/webm',
-        'playlist_items': '1-5',  
-        'outtmpl': os.path.join(subcarpeta_canal, '%(title)s.%(ext)s'), 
+        'playlist_items': '1-5',
+        'outtmpl': os.path.join(subcarpeta_canal, '%(title)s.%(ext)s'),
     }
 
-    # Descargar los videos del canal
     with yt_dlp.YoutubeDL(ydl_opts) as ydl:
         info = ydl.extract_info(canal['url'], download=True)
         videos = info.get('entries', [])
@@ -33,7 +30,7 @@ def procesar_canal(canal, carpeta_descarga, registro_path):
                 with open(registro_path, 'a') as registro_file:
                     registro_file.write(f"\t- Video: {title} - Fecha de publicacion: {upload_date_str} - Fecha y hora de descarga: {current_date_time}\n")
 
-    # Convertir los videos descargados a archivos de audio
+    # Convertir videos a mp3
     for archivo in os.listdir(subcarpeta_canal):
         if archivo.endswith('.webm'):
             nombre_sin_ext = os.path.splitext(archivo)[0]
@@ -42,51 +39,45 @@ def procesar_canal(canal, carpeta_descarga, registro_path):
             subprocess.run(['ffmpeg', '-i', archivo_webm, '-vn', '-acodec', 'libmp3lame', '-ab', '128k', archivo_mp3])
             os.remove(archivo_webm)
 
-# Función principal
-def main():
-    # Carpeta principal para la descarga de videos
+def main(num_procesos):
     carpeta_descarga = 'download_videos'
     os.makedirs(carpeta_descarga, exist_ok=True)
-    registro_path = 'registroSecuencial.txt'
-    current_date_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    registro_path = 'registroMultiprocessing.txt'
 
-    # Escribir la fecha y hora de inicio en el archivo de registro
+    current_date_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
     with open(registro_path, 'a') as registro_file:
         registro_file.write(f"\nFecha y hora de la ejecucion: {current_date_time}\n\n")
 
-    # Cargar los datos de los canales desde el archivo JSON
     with open('channels.json') as f:
         canales_data = json.load(f)
 
-    # Iniciar el cronómetro
     start_time = timeit.default_timer()
+    procesos = []
 
-    # Crear una lista para almacenar los procesos
-    processes = []
-
-    # Procesar cada canal en un proceso separado
     for canal in canales_data['canales']:
-        process = Process(target=procesar_canal, args=(canal, carpeta_descarga, registro_path))
-        processes.append(process)
-        process.start()
+        proceso = Process(target=procesar_canal, args=(canal, carpeta_descarga, registro_path))
+        procesos.append(proceso)
+        proceso.start()
 
-    # Esperar a que todos los procesos terminen
-    for process in processes:
-        process.join()
+        # Limitar el número de procesos activos
+        if len(procesos) >= num_procesos:
+            for p in procesos:
+                p.join()
+            procesos = []
 
-    # Cambiar el nombre de la carpeta de videos a audios
+    for proceso in procesos:
+        proceso.join()
+
     carpeta_audios = carpeta_descarga.replace('videos', 'audios')
     os.rename(carpeta_descarga, carpeta_audios)
 
-    # Calcular el tiempo de ejecución
     elapsed_time = timeit.default_timer() - start_time
     elapsed_minutes = int(elapsed_time // 60)
     elapsed_seconds = int(elapsed_time % 60)
 
-    # Indicar que la ejecución ha terminado y mostrar el tiempo de ejecución
     print("\n\n\nLa ejecucion ha terminado.")
     print(f"Tiempo de ejecucion: {elapsed_minutes} minutos y {elapsed_seconds} segundos")
 
-# Ejecutar la función principal si este script es el programa principal
 if __name__ == "__main__":
-    main()
+    num_procesos = 4  # Puedes ajustar el número de procesos según desees
+    main(num_procesos)
