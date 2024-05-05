@@ -1,0 +1,158 @@
+
+Fecha y hora de la ejecuciï¿½n: 2024-05-03 17:01:23
+
+Canal -> HolaMundo:
+	- Video: Llegï¿½ el fin para los programadores? Es Devin el futuro? - Fecha de publicaciï¿½n: 2024-03-26 - Fecha y hora de descarga: 2024-05-03 17:02:09
+	- Video: Por quï¿½ no estï¿½n contratando a los nuevos desarrolladores? - Fecha de publicaciï¿½n: 2024-03-15 - Fecha y hora de descarga: 2024-05-03 17:02:09
+	- Video: La ruta del desarrollador Fullstack - Comenzando desde CERO - Fecha de publicaciï¿½n: 2024-03-15 - Fecha y hora de descarga: 2024-05-03 17:02:09
+	- Video: Los nuevos desarrolladores no califican como devs - Fecha de publicaciï¿½n: 2024-03-15 - Fecha y hora de descarga: 2024-05-03 17:02:09
+	- Video: Usando chat gpt para construir una API rest - Fecha de publicaciï¿½n: 2024-03-15 - Fecha y hora de descarga: 2024-05-03 17:02:09
+Canal -> Matematicas profe Alex:
+	- Video: Volumen de un prisma Triangular "equilatero" - Fecha de publicaciï¿½n: 2024-05-02 - Fecha y hora de descarga: 2024-05-03 17:04:08
+	- Video: Volumen de un prisma rectangular - Ortoedro - Fecha de publicaciï¿½n: 2024-05-01 - Fecha y hora de descarga: 2024-05-03 17:04:08
+	- Video: Volumen del prisma cuadrangular - Fecha de publicaciï¿½n: 2024-04-29 - Fecha y hora de descarga: 2024-05-03 17:04:08
+	- Video: Volumen de un cubo - Fecha de publicaciï¿½n: 2024-04-25 - Fecha y hora de descarga: 2024-05-03 17:04:08
+	- Video: Quï¿½ es volumen | Matemï¿½ticas - Fecha de publicaciï¿½n: 2024-04-24 - Fecha y hora de descarga: 2024-05-03 17:04:08
+Canal -> MateFacil:
+	- Video: Funciï¿½n Compleja No Diferenciable pero que Sï¿½ cumple Ecuaciones de Cauchy Riemann (Ejemplo 3) - Fecha de publicaciï¿½n: 2024-04-27 - Fecha y hora de descarga: 2024-05-03 17:06:11
+	- Video: Funciï¿½n Compleja No Diferenciable pero que Sï¿½ cumple Ecuaciones de Cauchy Riemann (Ejemplo 2) - Fecha de publicaciï¿½n: 2024-04-26 - Fecha y hora de descarga: 2024-05-03 17:06:11
+	- Video: Encontrar los Valores de a y b para sea Continua - Funciï¿½n a Trozos - Fecha de publicaciï¿½n: 2024-04-25 - Fecha y hora de descarga: 2024-05-03 17:06:11
+	- Video: Ecuacion diferencial, identificar de quï¿½ tipo es y resolverla - Fecha de publicaciï¿½n: 2024-04-23 - Fecha y hora de descarga: 2024-05-03 17:06:11
+	- Video: 12. Dominio de funciï¿½n con Raï¿½z cuadrada y divisiï¿½n (Raï¿½z en denominador) - Fecha de publicaciï¿½n: 2024-04-23 - Fecha y hora de descarga: 2024-05-03 17:06:11
+Canal -> NASA:
+	- Video: Prelaunch Activities for Our Next Commercial Crew Flight Test on This Week @NASA ï¿½ April 26, 2024 - Fecha de publicaciï¿½n: 2024-04-27 - Fecha y hora de descarga: 2024-05-03 17:08:27
+	- Video: Success and Preparation - Fecha de publicaciï¿½n: 2024-04-23 - Fecha y hora de descarga: 2024-05-03 17:08:27
+	- Video: NASA Welcomes New Partners to the Artemis Accords ï¿½ This Week @NASA ï¿½ April 19 - Fecha de publicaciï¿½n: 2024-04-20 - Fecha y hora de descarga: 2024-05-03 17:08:27
+	- Video: Following the Shadow of the Total Solar Eclipse on This Week @NASA ï¿½ April 12, 2024 - Fecha de publicaciï¿½n: 2024-04-13 - Fecha y hora de descarga: 2024-05-03 17:08:27
+	- Video: Advancing Moon Mobility for Artemis Astronauts on This Week @NASA ï¿½ April 5, 2024 - Fecha de publicaciï¿½n: 2024-04-09 - Fecha y hora de descarga: 2024-05-03 17:08:27
+Canal -> Low Level Learning:
+	- Video: i changed my mind about this language - Fecha de publicaciï¿½n: 2024-04-30 - Fecha y hora de descarga: 2024-05-03 17:10:04
+	- Video: nation state backdoor found in Cisco firewalls (again..?) - Fecha de publicaciï¿½n: 2024-04-25 - Fecha y hora de descarga: 2024-05-03 17:10:04
+	- Video: this is a warning to anyone using php - Fecha de publicaciï¿½n: 2024-04-21 - Fecha y hora de descarga: 2024-05-03 17:10:04
+	- Video: zero-day vulnerability in Palo Alto firewalls exploited in the wild - Fecha de publicaciï¿½n: 2024-04-12 - Fecha y hora de descarga: 2024-05-03 17:10:04
+	- Video: major security vulnerability found in rust (over hyped?) - Fecha de publicaciï¿½n: 2024-04-10 - Fecha y hora de descarga: 2024-05-03 17:10:04
+
+Fecha y hora de la ejecucion: 2024-05-03 17:14:11
+
+
+Fecha y hora de la ejecucion: 2024-05-03 17:16:51
+
+Canal -> HolaMundo:
+	- Video: Llegï¿½ el fin para los programadores? Es Devin el futuro? - Fecha de publicacion: 2024-03-26 - Fecha y hora de descarga: 2024-05-03 17:17:21
+	- Video: Por quï¿½ no estï¿½n contratando a los nuevos desarrolladores? - Fecha de publicacion: 2024-03-15 - Fecha y hora de descarga: 2024-05-03 17:17:21
+	- Video: La ruta del desarrollador Fullstack - Comenzando desde CERO - Fecha de publicacion: 2024-03-15 - Fecha y hora de descarga: 2024-05-03 17:17:21
+	- Video: Los nuevos desarrolladores no califican como devs - Fecha de publicacion: 2024-03-15 - Fecha y hora de descarga: 2024-05-03 17:17:21
+	- Video: Usando chat gpt para construir una API rest - Fecha de publicacion: 2024-03-15 - Fecha y hora de descarga: 2024-05-03 17:17:21
+Canal -> Matematicas profe Alex:
+	- Video: Volumen de un prisma Triangular "equilatero" - Fecha de publicacion: 2024-05-02 - Fecha y hora de descarga: 2024-05-03 17:19:19
+	- Video: Volumen de un prisma rectangular - Ortoedro - Fecha de publicacion: 2024-05-01 - Fecha y hora de descarga: 2024-05-03 17:19:19
+	- Video: Volumen del prisma cuadrangular - Fecha de publicacion: 2024-04-29 - Fecha y hora de descarga: 2024-05-03 17:19:19
+	- Video: Volumen de un cubo - Fecha de publicacion: 2024-04-25 - Fecha y hora de descarga: 2024-05-03 17:19:19
+	- Video: Quï¿½ es volumen | Matemï¿½ticas - Fecha de publicacion: 2024-04-24 - Fecha y hora de descarga: 2024-05-03 17:19:19
+Canal -> MateFacil:
+	- Video: Funciï¿½n Compleja No Diferenciable pero que Sï¿½ cumple Ecuaciones de Cauchy Riemann (Ejemplo 3) - Fecha de publicacion: 2024-04-27 - Fecha y hora de descarga: 2024-05-03 17:21:29
+	- Video: Funciï¿½n Compleja No Diferenciable pero que Sï¿½ cumple Ecuaciones de Cauchy Riemann (Ejemplo 2) - Fecha de publicacion: 2024-04-26 - Fecha y hora de descarga: 2024-05-03 17:21:29
+	- Video: Encontrar los Valores de a y b para sea Continua - Funciï¿½n a Trozos - Fecha de publicacion: 2024-04-25 - Fecha y hora de descarga: 2024-05-03 17:21:29
+	- Video: Ecuacion diferencial, identificar de quï¿½ tipo es y resolverla - Fecha de publicacion: 2024-04-23 - Fecha y hora de descarga: 2024-05-03 17:21:29
+	- Video: 12. Dominio de funciï¿½n con Raï¿½z cuadrada y divisiï¿½n (Raï¿½z en denominador) - Fecha de publicacion: 2024-04-23 - Fecha y hora de descarga: 2024-05-03 17:21:29
+Canal -> NASA:
+	- Video: Prelaunch Activities for Our Next Commercial Crew Flight Test on This Week @NASA ï¿½ April 26, 2024 - Fecha de publicacion: 2024-04-27 - Fecha y hora de descarga: 2024-05-03 17:23:51
+	- Video: Success and Preparation - Fecha de publicacion: 2024-04-23 - Fecha y hora de descarga: 2024-05-03 17:23:51
+	- Video: NASA Welcomes New Partners to the Artemis Accords ï¿½ This Week @NASA ï¿½ April 19 - Fecha de publicacion: 2024-04-20 - Fecha y hora de descarga: 2024-05-03 17:23:51
+	- Video: Following the Shadow of the Total Solar Eclipse on This Week @NASA ï¿½ April 12, 2024 - Fecha de publicacion: 2024-04-13 - Fecha y hora de descarga: 2024-05-03 17:23:51
+	- Video: Advancing Moon Mobility for Artemis Astronauts on This Week @NASA ï¿½ April 5, 2024 - Fecha de publicacion: 2024-04-09 - Fecha y hora de descarga: 2024-05-03 17:23:51
+Canal -> Low Level Learning:
+	- Video: i changed my mind about this language - Fecha de publicacion: 2024-04-30 - Fecha y hora de descarga: 2024-05-03 17:25:27
+	- Video: nation state backdoor found in Cisco firewalls (again..?) - Fecha de publicacion: 2024-04-25 - Fecha y hora de descarga: 2024-05-03 17:25:27
+	- Video: this is a warning to anyone using php - Fecha de publicacion: 2024-04-21 - Fecha y hora de descarga: 2024-05-03 17:25:27
+	- Video: zero-day vulnerability in Palo Alto firewalls exploited in the wild - Fecha de publicacion: 2024-04-12 - Fecha y hora de descarga: 2024-05-03 17:25:27
+	- Video: major security vulnerability found in rust (over hyped?) - Fecha de publicacion: 2024-04-10 - Fecha y hora de descarga: 2024-05-03 17:25:27
+
+Fecha y hora de la ejecucion: 2024-05-03 17:37:22
+
+
+
+
+Secuencial - Fecha y hora de la ejecucion: 2024-05-04 21:29:14
+
+
+Secuencial - Fecha y hora de la ejecucion: 2024-05-04 21:44:50
+
+Canal -> HolaMundo:
+	- Video: Llegó el fin para los programadores? Es Devin el futuro? - Fecha de publicacion: 2024-03-26 - Fecha y hora de descarga: 2024-05-04 21:45:53
+	- Video: Por qué no están contratando a los nuevos desarrolladores? - Fecha de publicacion: 2024-03-15 - Fecha y hora de descarga: 2024-05-04 21:45:53
+	- Video: La ruta del desarrollador Fullstack - Comenzando desde CERO - Fecha de publicacion: 2024-03-15 - Fecha y hora de descarga: 2024-05-04 21:45:53
+	- Video: Los nuevos desarrolladores no califican como devs - Fecha de publicacion: 2024-03-15 - Fecha y hora de descarga: 2024-05-04 21:45:53
+	- Video: Usando chat gpt para construir una API rest - Fecha de publicacion: 2024-03-15 - Fecha y hora de descarga: 2024-05-04 21:45:53
+Canal -> Matematicas profe Alex:
+	- Video: Volumen de un prisma Triangular "equilatero" - Fecha de publicacion: 2024-05-02 - Fecha y hora de descarga: 2024-05-04 21:48:04
+	- Video: Volumen de un prisma rectangular - Ortoedro - Fecha de publicacion: 2024-05-01 - Fecha y hora de descarga: 2024-05-04 21:48:04
+	- Video: Volumen del prisma cuadrangular - Fecha de publicacion: 2024-04-29 - Fecha y hora de descarga: 2024-05-04 21:48:04
+	- Video: Volumen de un cubo - Fecha de publicacion: 2024-04-25 - Fecha y hora de descarga: 2024-05-04 21:48:04
+	- Video: Qué es volumen | Matemáticas - Fecha de publicacion: 2024-04-24 - Fecha y hora de descarga: 2024-05-04 21:48:04
+
+Secuencial - Fecha y hora de la ejecucion: 2024-05-04 22:07:05
+
+Canal -> HolaMundo:
+	- Video: Llegó el fin para los programadores? Es Devin el futuro? - Fecha de publicacion: 2024-03-26 - Fecha y hora de descarga: 2024-05-04 22:08:14
+	- Video: Por qué no están contratando a los nuevos desarrolladores? - Fecha de publicacion: 2024-03-15 - Fecha y hora de descarga: 2024-05-04 22:08:14
+	- Video: La ruta del desarrollador Fullstack - Comenzando desde CERO - Fecha de publicacion: 2024-03-15 - Fecha y hora de descarga: 2024-05-04 22:08:14
+	- Video: Los nuevos desarrolladores no califican como devs - Fecha de publicacion: 2024-03-15 - Fecha y hora de descarga: 2024-05-04 22:08:14
+	- Video: Usando chat gpt para construir una API rest - Fecha de publicacion: 2024-03-15 - Fecha y hora de descarga: 2024-05-04 22:08:14
+Canal -> Matematicas profe Alex:
+	- Video: Volumen de un prisma Triangular "equilatero" - Fecha de publicacion: 2024-05-02 - Fecha y hora de descarga: 2024-05-04 22:10:23
+	- Video: Volumen de un prisma rectangular - Ortoedro - Fecha de publicacion: 2024-05-01 - Fecha y hora de descarga: 2024-05-04 22:10:23
+	- Video: Volumen del prisma cuadrangular - Fecha de publicacion: 2024-04-29 - Fecha y hora de descarga: 2024-05-04 22:10:23
+	- Video: Volumen de un cubo - Fecha de publicacion: 2024-04-25 - Fecha y hora de descarga: 2024-05-04 22:10:23
+	- Video: Qué es volumen | Matemáticas - Fecha de publicacion: 2024-04-24 - Fecha y hora de descarga: 2024-05-04 22:10:23
+Canal -> Hdeleon.net:
+	- Video: ¡Me Intentaron HACKEAR para COMPRAR CERVEZA! - Fecha de publicacion: 2024-05-04 - Fecha y hora de descarga: 2024-05-04 22:14:04
+	- Video: ¡Google Despide a Cientos! Contratará a Programadores en México e India - Fecha de publicacion: 2024-05-02 - Fecha y hora de descarga: 2024-05-04 22:14:04
+	- Video: ¿Cuánto se GANA Programando en C# .NET? - Fecha de publicacion: 2024-05-01 - Fecha y hora de descarga: 2024-05-04 22:14:04
+	- Video: Google Despide Programadores de Flutter ¿Es el final de Flutter? - Fecha de publicacion: 2024-04-29 - Fecha y hora de descarga: 2024-05-04 22:14:04
+	- Video: Google Despide a TODO SU EQUIPO de Programadores Python - Fecha de publicacion: 2024-04-28 - Fecha y hora de descarga: 2024-05-04 22:14:04
+Canal -> NASA:
+	- Video: Prelaunch Activities for Our Next Commercial Crew Flight Test on This Week @NASA – April 26, 2024 - Fecha de publicacion: 2024-04-27 - Fecha y hora de descarga: 2024-05-04 22:16:21
+	- Video: Success and Preparation - Fecha de publicacion: 2024-04-23 - Fecha y hora de descarga: 2024-05-04 22:16:21
+	- Video: NASA Welcomes New Partners to the Artemis Accords … This Week @NASA – April 19 - Fecha de publicacion: 2024-04-20 - Fecha y hora de descarga: 2024-05-04 22:16:21
+	- Video: Following the Shadow of the Total Solar Eclipse on This Week @NASA – April 12, 2024 - Fecha de publicacion: 2024-04-13 - Fecha y hora de descarga: 2024-05-04 22:16:21
+	- Video: Advancing Moon Mobility for Artemis Astronauts on This Week @NASA – April 5, 2024 - Fecha de publicacion: 2024-04-09 - Fecha y hora de descarga: 2024-05-04 22:16:21
+Canal -> Low Level Learning:
+	- Video: i changed my mind about this language - Fecha de publicacion: 2024-04-30 - Fecha y hora de descarga: 2024-05-04 22:18:13
+	- Video: nation state backdoor found in Cisco firewalls (again..?) - Fecha de publicacion: 2024-04-25 - Fecha y hora de descarga: 2024-05-04 22:18:13
+	- Video: this is a warning to anyone using php - Fecha de publicacion: 2024-04-21 - Fecha y hora de descarga: 2024-05-04 22:18:13
+	- Video: zero-day vulnerability in Palo Alto firewalls exploited in the wild - Fecha de publicacion: 2024-04-12 - Fecha y hora de descarga: 2024-05-04 22:18:13
+	- Video: major security vulnerability found in rust (over hyped?) - Fecha de publicacion: 2024-04-10 - Fecha y hora de descarga: 2024-05-04 22:18:13
+
+Secuencial - Fecha y hora de la ejecucion: 2024-05-04 22:20:27
+
+Canal -> HolaMundo:
+	- Video: Llegó el fin para los programadores? Es Devin el futuro? - Fecha de publicacion: 2024-03-26 - Fecha y hora de descarga: 2024-05-04 22:21:33
+	- Video: Por qué no están contratando a los nuevos desarrolladores? - Fecha de publicacion: 2024-03-15 - Fecha y hora de descarga: 2024-05-04 22:21:33
+	- Video: La ruta del desarrollador Fullstack - Comenzando desde CERO - Fecha de publicacion: 2024-03-15 - Fecha y hora de descarga: 2024-05-04 22:21:33
+	- Video: Los nuevos desarrolladores no califican como devs - Fecha de publicacion: 2024-03-15 - Fecha y hora de descarga: 2024-05-04 22:21:33
+	- Video: Usando chat gpt para construir una API rest - Fecha de publicacion: 2024-03-15 - Fecha y hora de descarga: 2024-05-04 22:21:33
+Canal -> Matematicas profe Alex:
+	- Video: Volumen de un prisma Triangular "equilatero" - Fecha de publicacion: 2024-05-02 - Fecha y hora de descarga: 2024-05-04 22:23:48
+	- Video: Volumen de un prisma rectangular - Ortoedro - Fecha de publicacion: 2024-05-01 - Fecha y hora de descarga: 2024-05-04 22:23:48
+	- Video: Volumen del prisma cuadrangular - Fecha de publicacion: 2024-04-29 - Fecha y hora de descarga: 2024-05-04 22:23:48
+	- Video: Volumen de un cubo - Fecha de publicacion: 2024-04-25 - Fecha y hora de descarga: 2024-05-04 22:23:48
+	- Video: Qué es volumen | Matemáticas - Fecha de publicacion: 2024-04-24 - Fecha y hora de descarga: 2024-05-04 22:23:48
+Canal -> Hdeleon.net:
+	- Video: ¡Me Intentaron HACKEAR para COMPRAR CERVEZA! - Fecha de publicacion: 2024-05-04 - Fecha y hora de descarga: 2024-05-04 22:26:19
+	- Video: ¡Google Despide a Cientos! Contratará a Programadores en México e India - Fecha de publicacion: 2024-05-02 - Fecha y hora de descarga: 2024-05-04 22:26:19
+	- Video: ¿Cuánto se GANA Programando en C# .NET? - Fecha de publicacion: 2024-05-01 - Fecha y hora de descarga: 2024-05-04 22:26:19
+	- Video: Google Despide Programadores de Flutter ¿Es el final de Flutter? - Fecha de publicacion: 2024-04-29 - Fecha y hora de descarga: 2024-05-04 22:26:19
+	- Video: Google Despide a TODO SU EQUIPO de Programadores Python - Fecha de publicacion: 2024-04-28 - Fecha y hora de descarga: 2024-05-04 22:26:19
+Canal -> NASA:
+	- Video: Prelaunch Activities for Our Next Commercial Crew Flight Test on This Week @NASA – April 26, 2024 - Fecha de publicacion: 2024-04-27 - Fecha y hora de descarga: 2024-05-04 22:28:47
+	- Video: Success and Preparation - Fecha de publicacion: 2024-04-23 - Fecha y hora de descarga: 2024-05-04 22:28:47
+	- Video: NASA Welcomes New Partners to the Artemis Accords … This Week @NASA – April 19 - Fecha de publicacion: 2024-04-20 - Fecha y hora de descarga: 2024-05-04 22:28:47
+	- Video: Following the Shadow of the Total Solar Eclipse on This Week @NASA – April 12, 2024 - Fecha de publicacion: 2024-04-13 - Fecha y hora de descarga: 2024-05-04 22:28:47
+	- Video: Advancing Moon Mobility for Artemis Astronauts on This Week @NASA – April 5, 2024 - Fecha de publicacion: 2024-04-09 - Fecha y hora de descarga: 2024-05-04 22:28:47
+Canal -> Low Level Learning:
+	- Video: i changed my mind about this language - Fecha de publicacion: 2024-04-30 - Fecha y hora de descarga: 2024-05-04 22:30:34
+	- Video: nation state backdoor found in Cisco firewalls (again..?) - Fecha de publicacion: 2024-04-25 - Fecha y hora de descarga: 2024-05-04 22:30:34
+	- Video: this is a warning to anyone using php - Fecha de publicacion: 2024-04-21 - Fecha y hora de descarga: 2024-05-04 22:30:34
+	- Video: zero-day vulnerability in Palo Alto firewalls exploited in the wild - Fecha de publicacion: 2024-04-12 - Fecha y hora de descarga: 2024-05-04 22:30:34
+	- Video: major security vulnerability found in rust (over hyped?) - Fecha de publicacion: 2024-04-10 - Fecha y hora de descarga: 2024-05-04 22:30:34

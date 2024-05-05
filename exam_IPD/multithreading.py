@@ -1,5 +1,3 @@
-#EJECUCIÓN DEL APLICATIVO CON MÚLTIPLES HILOS (MULTITHREADING)
-
 import os
 import subprocess
 import json
@@ -9,7 +7,7 @@ import timeit
 import threading
 
 # Función para descargar y convertir videos en un hilo
-def procesar_canal(canal, carpeta_descarga, registro_path, num_hilos):
+def procesar_canal(canal, carpeta_descarga, registro_path):
     nombre_canal = canal['nombre']
     subcarpeta_canal = os.path.join(carpeta_descarga, nombre_canal)
     os.makedirs(subcarpeta_canal, exist_ok=True)
@@ -29,8 +27,10 @@ def procesar_canal(canal, carpeta_descarga, registro_path, num_hilos):
                 upload_date = video.get('upload_date', 'Unknown')
                 upload_date_str = datetime.strptime(upload_date, '%Y%m%d').strftime('%Y-%m-%d')
                 current_date_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+
+                # Escribir información del video al registro con formato "Canal "nombre_canal" -> Video: ..."
                 with open(registro_path, 'a') as registro_file:
-                    registro_file.write(f"\t- Video: {title} - Fecha de publicacion: {upload_date_str} - Fecha y hora de descarga: {current_date_time}\n")
+                    registro_file.write(f"Canal \"{nombre_canal}\" -> Video: {title} - Fecha de publicación: {upload_date_str} - Fecha y hora de descarga: {current_date_time}\n")
 
     # Convertir videos a mp3
     for archivo in os.listdir(subcarpeta_canal):
@@ -48,7 +48,7 @@ def main(num_hilos):
 
     current_date_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
     with open(registro_path, 'a') as registro_file:
-        registro_file.write(f"\Multithreading - nFecha y hora de la ejecucion: {current_date_time}\n\n")
+        registro_file.write(f"\nMultithreading - Fecha y hora de la ejecución: {current_date_time}\n\n")
 
     with open('channels.json') as f:
         canales_data = json.load(f)
@@ -57,7 +57,7 @@ def main(num_hilos):
     threads = []
 
     for canal in canales_data['canales']:
-        thread = threading.Thread(target=procesar_canal, args=(canal, carpeta_descarga, registro_path, num_hilos))
+        thread = threading.Thread(target=procesar_canal, args=(canal, carpeta_descarga, registro_path))
         threads.append(thread)
         thread.start()
 
@@ -71,8 +71,8 @@ def main(num_hilos):
     elapsed_minutes = int(elapsed_time // 60)
     elapsed_seconds = int(elapsed_time % 60)
 
-    print("\n\n\nLa ejecucion ha terminado.")
-    print(f"Tiempo de ejecucion: {elapsed_minutes} minutos y {elapsed_seconds} segundos")
+    print("\n\n\nLa ejecución ha terminado.")
+    print(f"Tiempo de ejecución: {elapsed_minutes} minutos y {elapsed_seconds} segundos")
 
 if __name__ == "__main__":
     num_hilos = 4  

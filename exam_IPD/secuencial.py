@@ -12,7 +12,7 @@ def main():
     os.makedirs(carpeta_descarga, exist_ok=True)
 
     # Crear el archivo de registro
-    registro_path = 'registro.txt'
+    registro_path = 'registroSecuencial.txt'
 
     # Obtener la fecha y hora actual del PC
     current_date_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')

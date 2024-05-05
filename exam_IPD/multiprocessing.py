@@ -27,8 +27,10 @@ def procesar_canal(canal, carpeta_descarga, registro_path):
                 upload_date = video.get('upload_date', 'Unknown')
                 upload_date_str = datetime.strptime(upload_date, '%Y%m%d').strftime('%Y-%m-%d')
                 current_date_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+
+                # Escribir información del video al registro con formato "Canal "nombre_canal" -> Video: ..."
                 with open(registro_path, 'a') as registro_file:
-                    registro_file.write(f"\t- Video: {title} - Fecha de publicacion: {upload_date_str} - Fecha y hora de descarga: {current_date_time}\n")
+                    registro_file.write(f"Canal \"{nombre_canal}\" -> Video: {title} - Fecha de publicación: {upload_date_str} - Fecha y hora de descarga: {current_date_time}\n")
 
     # Convertir videos a mp3
     for archivo in os.listdir(subcarpeta_canal):
@@ -46,7 +48,7 @@ def main(num_procesos):
 
     current_date_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
     with open(registro_path, 'a') as registro_file:
-        registro_file.write(f"\nMultiprocessing - Fecha y hora de la ejecucion: {current_date_time}\n\n")
+        registro_file.write(f"\nMultiprocessing - Fecha y hora de la ejecución: {current_date_time}\n\n")
 
     with open('channels.json') as f:
         canales_data = json.load(f)
@@ -75,9 +77,9 @@ def main(num_procesos):
     elapsed_minutes = int(elapsed_time // 60)
     elapsed_seconds = int(elapsed_time % 60)
 
-    print("\n\n\nLa ejecucion ha terminado.")
-    print(f"Tiempo de ejecucion: {elapsed_minutes} minutos y {elapsed_seconds} segundos")
+    print("\n\n\nLa ejecución ha terminado.")
+    print(f"Tiempo de ejecución: {elapsed_minutes} minutos y {elapsed_seconds} segundos")
 
 if __name__ == "__main__":
-    num_procesos = 4  # Puedes ajustar el número de procesos según desees
+    num_procesos = 16  # Ajustar el número de procesos según desees
     main(num_procesos)
