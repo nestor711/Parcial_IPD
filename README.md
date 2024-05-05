@@ -35,3 +35,7 @@ El aplicativo se divide en tres versiones, cada una implementando un enfoque dif
 
 ## Diagrama o Gráfico Descripctivo
 ![Doc1-removebg-preview](https://github.com/nestor711/Parcial_IPD/assets/114924593/e9bbb4a3-a004-41be-8878-3e9f0929f304)
+
+## Recomendaciones
+
+Se recomienda realizar pruebas adicionales para optimizar aún más el rendimiento del procesamiento paralelo, explorando diferentes configuraciones de hardware y software, así como técnicas de optimización específicas para las aplicaciones yt-dlp y ffmpeg. Como nota adicional, se recomienda el no uso de canales no muy actualizados o en constante actualización, debido a que la aplicación falla cuando se trata de descargarvideos en estreno o videos en directo, ante estos ambientes o parecidos el tiempo de descarga sobrepasa las estadísticas escritas en este informe.
