@@ -75,5 +75,5 @@ def main(num_hilos):
     print(f"Tiempo de ejecución: {elapsed_minutes} minutos y {elapsed_seconds} segundos")
 
 if __name__ == "__main__":
-    num_hilos = 4  
+    num_hilos = 16  #Ajustar número de hilos
     main(num_hilos)
