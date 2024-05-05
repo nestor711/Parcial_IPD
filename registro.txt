@@ -72,3 +72,6 @@ Fecha y hora de la ejecucion: 2024-05-03 17:37:22
 
 
 
+
+Secuencial - Fecha y hora de la ejecucion: 2024-05-04 21:29:14
+

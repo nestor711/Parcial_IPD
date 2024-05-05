@@ -12,14 +12,14 @@ def main():
     os.makedirs(carpeta_descarga, exist_ok=True)
 
     # Crear el archivo de registro
-    registro_path = 'registroSecuencial.txt'
+    registro_path = 'registro.txt'
 
     # Obtener la fecha y hora actual del PC
     current_date_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 
     # Escribir la fecha y hora al principio del archivo de registro
     with open(registro_path, 'a') as registro_file:
-        registro_file.write(f"\nFecha y hora de la ejecucion: {current_date_time}\n\n")
+        registro_file.write(f"\nSecuencial - Fecha y hora de la ejecucion: {current_date_time}\n\n")
 
     # Cargar el archivo JSON con los canales
     with open('channels.json') as f:

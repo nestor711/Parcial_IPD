@@ -46,7 +46,7 @@ def main(num_procesos):
 
     current_date_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
     with open(registro_path, 'a') as registro_file:
-        registro_file.write(f"\nFecha y hora de la ejecucion: {current_date_time}\n\n")
+        registro_file.write(f"\nMultiprocessing - Fecha y hora de la ejecucion: {current_date_time}\n\n")
 
     with open('channels.json') as f:
         canales_data = json.load(f)
