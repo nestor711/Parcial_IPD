@@ -33,4 +33,6 @@ El aplicativo se divide en tres versiones, cada una implementando un enfoque dif
 2. **Múltiples Hilos:** Se utiliza el módulo threading para ejecutar múltiples tareas en paralelo dentro del mismo proceso.
 3. **Múltiples Procesos:** Se utiliza el módulo multiprocessing para ejecutar múltiples procesos independientes, cada uno con su propio hilo de ejecución.
 
-## Diagrama
+## Diagrama o gráfico descripctivo
+![Doc1](https://github.com/nestor711/Parcial_IPD/assets/114924593/d2c0a6cb-cb57-4012-98f3-bbc6b3a2632b)
+
