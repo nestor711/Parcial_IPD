@@ -81,5 +81,5 @@ def main(num_procesos):
     print(f"Tiempo de ejecución: {elapsed_minutes} minutos y {elapsed_seconds} segundos")
 
 if __name__ == "__main__":
-    num_procesos = 16  # Ajustar el número de procesos según desees
+    num_procesos = 16  # Ajustar el número de procesos
     main(num_procesos)
